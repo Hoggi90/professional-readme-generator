@@ -1,29 +1,34 @@
-# passsword gen
+# 1
 
-## Description
+  ## Licensing:
+  [![license](https://img.shields.io/badge/license-Mozilla-Public-blue)](https://shields.io)
 
-### creates a random password for the user
+  ## Table of Contents 
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Testing](#testing)
+  - [Additional Info](#additional-info)
 
-## Table Of Contents
+  ## Description:
+  2
 
-### password, genertor
+  ## Installation:
+  3
 
-## Installation
+  ## Usage:
+  4
 
-### click on generate after this
+  ## License:
+  Mozilla-Public
 
-## Usage
+  ## Contribution:
+  5
 
-### using your mouse navgate to xyz
+  ## Testing:
+  6
 
-## License
-
-### undefined
-
-## Contributing
-
-### these are the contrivutons
-
-## Tests 
-
-### this is the test
+  ## Contact:
+  - Github: 7 : (https://github.com/7)
+  - Email: 8 
