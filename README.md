@@ -1,7 +1,7 @@
-# 1
+# 3
 
   ## Licensing:
-  [![license](https://img.shields.io/badge/license-Mozilla-Public-blue)](https://shields.io)
+  [![license](https://img.shields.io/badge/license-Apache-blue)](https://shields.io)
 
   ## Table of Contents 
   - [Description](#description)
@@ -12,23 +12,25 @@
   - [Additional Info](#additional-info)
 
   ## Description:
-  2
+  3
 
   ## Installation:
   3
 
   ## Usage:
-  4
+  3
 
   ## License:
-  Mozilla-Public
+  Apache
 
   ## Contribution:
-  5
+  3
 
   ## Testing:
-  6
+  3
 
-  ## Contact:
-  - Github: 7 : (https://github.com/7)
-  - Email: 8 
+  ## Questions:
+
+  ### if you have any questions feel free to contact me below:
+  - Email: 3;
+  - Github: 3 : (https://github.com/3)

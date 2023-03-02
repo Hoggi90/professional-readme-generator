@@ -10,7 +10,7 @@ const questions = [
         type: 'input',
         name: 'title',
         message: 'What is the title of your project?',
-        validate: titleInput => (titleInput) ? true :
+        validate: title => (title) ? true :
             console.log('Please enter a title to continue.')
     },
     // The description of the project
@@ -18,15 +18,15 @@ const questions = [
         type: 'input',
         name: 'description',
         message: 'What is the description of your project?',
-        validate: descriptionInput => (descriptionInput) ? true :
+        validate: description => (description) ? true :
             console.log('Please provide a project description.')
     },
-    // The Installation Instructions for the project
+    // The installation instructions for the project
     {
         type: 'input',
         name: 'installation',
         message: 'How do you install your project?',
-        validate: installationInput => (installationInput) ? true :
+        validate: installation => (installation) ? true :
             console.log('Please provide installation instructions to continue.')
     },
     // How to use the project
@@ -34,7 +34,7 @@ const questions = [
         type: 'input',
         name: 'usage',
         message: 'How do you use your project?',
-        validate: usageInput => (usageInput) ? true :
+        validate: usage => (usage) ? true :
             console.log('Please enter how to use your project.')
     },
     // information on how to contribute to the project
@@ -42,7 +42,7 @@ const questions = [
         type: 'input',
         name: 'contribution',
         message: 'How do you contribute to your project?',
-        validate: contributionInput => (contributionInput) ? true :
+        validate: contribution => (contribution) ? true :
             console.log('Please enter information on contribution.')
     },
     // Instructions on how to test the project
@@ -50,7 +50,7 @@ const questions = [
         type: 'input',
         name: 'testing',
         message: 'How do you test your project?',
-        validate: testingInput => (testingInput) ? true :
+        validate: testing => (testing) ? true :
             console.log('Please describe how to test your project.')
     },
     // License options to choose from
@@ -59,7 +59,7 @@ const questions = [
         name: 'licensing',
         message: 'Choose a license for your project',
         choices: ['Mozilla-Public', 'GNU-General-Public', 'Apache', 'Common-Development-and Distribution', 'MIT', 'None'],
-        validate: licensingInput => (licensingInput) ? true :
+        validate: licensing => (licensing) ? true :
             console.log('Please pick a license for your project.')
     },
     // User to enter their Github Username
@@ -67,7 +67,7 @@ const questions = [
         type: 'input',
         name: 'github',
         message: 'Please enter your GitHub Username',
-        validate: githubInput => (githubInput) ? true :
+        validate: github => (github) ? true :
             console.log('Please enter your GitHub username.')
     },
     // option to add an email address
@@ -75,19 +75,19 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'Please enter your email address.',
-        validate: emailInput => (emailInput) ? true :
+        validate: email => (email) ? true :
             console.log('Please enter your email address.')
     },
 ];
 
-// This function initialises the readme generator
-function init() {
+// This function starts the readme generator
+function start() {
     inquirer.prompt(questions)
-        .then(function (userInput) {
-            fs.writeFile("README.md", generateMarkdown(userInput), (err) => (err) ? console.error(err) :
-                console.log('SUCCESSFUL! - README file generated.'));
-        });
+        .then((answers) =>
+            fs.writeFile("README.md", generateMarkdown(answers), (err) => (err) ? console.error(err) :
+                console.log('SUCCESSFUL! - README file generated.'))
+        );
 };
 
-// this functions calls the initialising function
-init();
+// this functions calls the start function
+start();
