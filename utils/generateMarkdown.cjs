@@ -11,7 +11,7 @@ function generateMarkdown(answers) {
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Testing](#testing)
-  - [Additional Info](#additional-info)
+  - [Questions](#questions)
 
   ## Description:
   ${answers.description}

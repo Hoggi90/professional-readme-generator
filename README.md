@@ -1,7 +1,7 @@
-# 2
+# Professional README generator
 
   ## Licensing:
-  [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://shields.io)
+  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://shields.io)
 
   ## Table of Contents 
   - [Description](#description)
@@ -9,28 +9,28 @@
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Testing](#testing)
-  - [Additional Info](#additional-info)
+  - [Questions](#questions)
 
   ## Description:
-  2
+  this is a command line application that allows the user to create a professional readme file based off a template by answering a series of questions prompted to the user.
 
   ## Installation:
-  2
+  to install the application, clone the repo using 'git clone' and then install inquirer using 'npm install'
 
   ## Usage:
-  2
+  run the command 'node index.js' to initiate the application and answer the series of prompted questions 
 
   ## License:
-  GPLv3
+  MIT
 
   ## Contribution:
-  2
+  There is currently no option to contribute to this project
 
   ## Testing:
-  2
+  There are currently no tests for this application. But you can run the application and check to see if the readme file is created.
 
   ## Questions:
 
   ### if you have any questions feel free to contact me below:
-  - Email: 2;
-  - Github: 2 : (https://github.com/2)
+  - Email: hogga1@gmail.com;
+  - Github: Hoggi90 : (https://github.com/Hoggi90)

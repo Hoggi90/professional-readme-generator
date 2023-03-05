@@ -1,7 +1,7 @@
 // importing modules, file system and generateMarkdown javascript file
 import inquirer from 'inquirer';
 import fs from 'fs';
-import generateMarkdown from './assets/generateMarkdown.cjs';
+import generateMarkdown from './utils/generateMarkdown.cjs';
 
 // An array that contains the questions for the user to answer for the readme
 const questions = [
