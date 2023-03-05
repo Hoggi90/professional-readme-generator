@@ -1,9 +1,9 @@
 // A function created to generate markdown for the README file
-function generateMarkdown(data) {
-  return `# ${data.title}
+function generateMarkdown(answers) {
+  return `# ${answers.title}
 
   ## Licensing:
-  [![license](https://img.shields.io/badge/license-${data.licensing}-blue)](https://shields.io)
+  [![License](https://img.shields.io/badge/License-${answers.licensing}-blue.svg)](https://shields.io)
 
   ## Table of Contents 
   - [Description](#description)
@@ -14,28 +14,28 @@ function generateMarkdown(data) {
   - [Additional Info](#additional-info)
 
   ## Description:
-  ${data.description}
+  ${answers.description}
 
   ## Installation:
-  ${data.installation}
+  ${answers.installation}
 
   ## Usage:
-  ${data.usage}
+  ${answers.usage}
 
   ## License:
-  ${data.licensing}
+  ${answers.licensing}
 
   ## Contribution:
-  ${data.contribution}
+  ${answers.contribution}
 
   ## Testing:
-  ${data.testing}
+  ${answers.testing}
 
   ## Questions:
 
   ### if you have any questions feel free to contact me below:
-  - Email: ${data.email};
-  - Github: ${data.github} : (https://github.com/${data.github})`
+  - Email: ${answers.email};
+  - Github: ${answers.github} : (https://github.com/${answers.github})`
 }
 // Exporting the generateMarkdwon JS file
 module.exports = generateMarkdown;

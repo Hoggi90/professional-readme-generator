@@ -1,7 +1,7 @@
-# 3
+# 2
 
   ## Licensing:
-  [![license](https://img.shields.io/badge/license-Apache-blue)](https://shields.io)
+  [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://shields.io)
 
   ## Table of Contents 
   - [Description](#description)
@@ -12,25 +12,25 @@
   - [Additional Info](#additional-info)
 
   ## Description:
-  3
+  2
 
   ## Installation:
-  3
+  2
 
   ## Usage:
-  3
+  2
 
   ## License:
-  Apache
+  GPLv3
 
   ## Contribution:
-  3
+  2
 
   ## Testing:
-  3
+  2
 
   ## Questions:
 
   ### if you have any questions feel free to contact me below:
-  - Email: 3;
-  - Github: 3 : (https://github.com/3)
+  - Email: 2;
+  - Github: 2 : (https://github.com/2)
