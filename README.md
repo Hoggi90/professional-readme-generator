@@ -1,4 +1,4 @@
-# Professional README generator
+# Team Profile Generator
 
   ## Licensing:
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://shields.io)
@@ -12,25 +12,25 @@
   - [Questions](#questions)
 
   ## Description:
-  this is a command line application that allows the user to create a professional readme file based off a template by answering a series of questions prompted to the user.
+  This is a command-line interface application that allows the user to build a team with different profiles that include details such as name, role, email, github username and school. The information is then sent to a HTML page that is built at the end of the prompt questionsand displayed in cards in a polished UI fashion.
 
   ## Installation:
-  to install the application, clone the repo using 'git clone' and then install inquirer using 'npm install'
+  Install the following, bootstrap, inquirer, jest using 'npi install'. Then type the following command 'node index.js' to run the application.
 
   ## Usage:
-  run the command 'node index.js' to initiate the application and answer the series of prompted questions 
+  Type the command 'node index.js' to run the application, then answer the prompted questions by adding employees one by one. Once the desired team number is reached choose 'no more employees required' and this will then generate and render a HTML page with the team profiles.	
 
   ## License:
-  MIT
+  
 
   ## Contribution:
-  There is currently no option to contribute to this project
+  You currently can not contribute to the project. But this may be an option in the future
 
   ## Testing:
-  There are currently no tests for this application. But you can run the application and check to see if the readme file is created.
+  Type the command 'npm run test' and you will be able to run the tests. You can also start the application and complete it making sure a HTML page is created at the end.
 
   ## Questions:
 
   ### if you have any questions feel free to contact me below:
   - Email: hogga1@gmail.com;
-  - Github: Hoggi90 : (https://github.com/Hoggi90)
+  - Github: hoggi90 : (https://github.com/hoggi90)
